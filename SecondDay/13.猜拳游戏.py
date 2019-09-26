@@ -8,7 +8,7 @@ self  =  int(input("请出拳"))
 
 # 2.定义一个变量赋值为1，表示电脑的出泉
 #得到一个1-3之间的随机数作为电脑出的拳
-computer = random.random(1,3)
+computer = random.randint(1,3)
 #3.比较胜负
 # 3.1比较自己赢的情况
 if (self == 1 and computer == 2) or \
