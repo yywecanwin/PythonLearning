@@ -7,9 +7,9 @@ print(10)
 
 print(True)
 
-str1 = "爽儿"
+str1 = "李四"
 print(str1)
 
-str2 = "尼古拉斯.赵四"
+str2 = "张三"
 print(str2)
 print(10 + 20)
