@@ -14,3 +14,4 @@ print(1 and 10) # 10
 
 print(1 or 10) # 10
 print(0 or 10) # 10
+
