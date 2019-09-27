@@ -14,4 +14,3 @@ print(result) # 20
 
 result2 = a + 10  if a < b else b + 200
 print(result2) # 210
-
