@@ -26,5 +26,3 @@ str1 = "hello"
 print(type(str1)) # <class 'str'>
 
 
-
-
