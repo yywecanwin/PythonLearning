@@ -16,5 +16,3 @@ print(result)
 print(type(result))
 
 
-
-
