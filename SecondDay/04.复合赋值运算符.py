@@ -10,3 +10,4 @@ print(a) # 21
 b=10
 b -= 1 # b = b - 1
 print(b) # 9
+
