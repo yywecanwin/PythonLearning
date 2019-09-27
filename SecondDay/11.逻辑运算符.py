@@ -35,5 +35,3 @@ print((a < b) or (b < c)) # True or True->True
 print(not (a > b)) #  not False -> True
 print(not (a < b)) #  not True -> False
 
-
-
