@@ -27,5 +27,3 @@ age1 = 30
 user_name = "铁娃"
 print("我的姓名是%s,年龄是%d岁" % (user_name, age1))
 
-
-
