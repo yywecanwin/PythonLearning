@@ -11,9 +11,6 @@ print("yao is a good man")
 """
 hello
 hello
-
 """
 
-
-print()
 
