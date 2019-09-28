@@ -23,3 +23,6 @@ b = 20
 f_string3 = f"a + b的和是：{a + b}"
 print(f_string3)
 
+# 两个花括号会被替换为一个花括号, 注意{{}} 不表示表达式
+format_string7 = F'我的名字是 {{name}}, 我的年龄是 {{age}}'
+print(format_string7) # 我的名字是 {name}, 我的年龄是 {age}
