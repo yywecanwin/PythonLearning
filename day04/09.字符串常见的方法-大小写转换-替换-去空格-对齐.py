@@ -17,9 +17,20 @@ print("a" + s3.strip() + "b")
 print(s3.replace(" ", ""))
 
 # 4对齐的方法
-
 s4 = "hello"
 print(s4.rjust(15)) # hellopython
 print(s4.center(16))
 print(s4.rjust(15))
 print(s4.center(16))
+
+# join
+s5 = "hello"
+s6 = "python"
+# 使用s5连接s6中的元素，得到一个新的字符串
+reslut3 = s5.join(s6)
+print(reslut3) # phelloyhellothellohhelloohellon
+print(type(reslut3)) # <class 'str'>
+
+s6.find("hh")
+print(s6)
+
