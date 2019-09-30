@@ -32,5 +32,4 @@ print(reslut3) # phelloyhellothellohhelloohellon
 print(type(reslut3)) # <class 'str'>
 
 s6.find("hh")
-print(s6)
-
+print(s6) # python
