@@ -14,7 +14,7 @@ def sum1(a,b):
         两个数的相加和
     :param a:
     :param b:
-    :return: s
+    :return:
     """
     s = a + b
     print(s)
