@@ -7,6 +7,12 @@ return语句执行,不能同时执行两个return语句
 """
 
 def get_num(a,b):
+    """
+    条件判断,根据两个值大小,返回不能值
+    :param a:
+    :param b:
+    :return: a+b or a-b
+    """
     if a > b:
         return a + b
     return a - b
