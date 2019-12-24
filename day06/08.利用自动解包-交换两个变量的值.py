@@ -28,6 +28,19 @@ a,b = b,a
 print(a) # 20
 print(b) # 10
 
+x,y,z = 1,2,3
+
+print(x)
+print(y)
+print(z)
+
+z,y,x = 1,2,3
+print(x)
+print(y)
+print(z)
+
+
+
 
 
 
