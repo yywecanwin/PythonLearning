@@ -155,7 +155,6 @@ def show_main():
     print("3.查找一个学生")
     print("4.修改一个学生")
     print("5.删除一个学生")
-    print()
     print("0.退出系统")
     print("*" * 50)
 
