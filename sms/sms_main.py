@@ -45,7 +45,7 @@ def main():
             sms_tools.del_student()
 
         elif menu_code == "0":
-            print("调用0.退出系统的功能")
+            print("退出系统的功能")
             break;
 
         else:
