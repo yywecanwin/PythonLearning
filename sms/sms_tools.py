@@ -93,11 +93,36 @@ def find_student():
 
 # 4、修改一个学生
 def update_student():
+    """
+    修改一个学生信息
+    :return:
+    """
 
+    # 1.录入一个学生姓名
+    input_name = input("请输入一个学生")
 
+    # 2.遍历列表
+    for student in student_list:
+        # 3.判断字典中的姓名与录入姓名是否一样
+        if input_name == student.get("name"):
+            # 4.如一样，就提示录入4个信息
+            name = input("请录入学生的新姓名")
+            tel = input("请录入学生的新手机号码")
+            we_chat = input("请录入学生的新微信")
+            address = input("q请录入学生的新地址")
+            # 5.使用新录入的4个信息替换字典中的4个value
+            student['name'] = name
+            student['tel'] = tel
+            student['we_chat'] = we_chat
+            student['address'] = address
+            # 6.提示修改成功
+            print("修改成功")
+            break
 
+        else:
+            # 7.否则，提示，系统中还没有此学生
+            print("系统中还没有此学生！！！")
 
-    pass
 
 # 5、删除一个学生
 def del_student():
