@@ -4,6 +4,7 @@
 # 定义一个列表，用来存储所有学生
 student_list = []
 
+
 def add_student():
     """
     1、添加学生信息
@@ -18,7 +19,6 @@ def add_student():
             if name == student.get("name"):
                 print("发现重名，请重新录入！！！")
                 break
-
         else:
             # 如果没有重名，就接着录入电话，微信等
             break
@@ -35,8 +35,6 @@ def add_student():
     print(f"添加{name}成功！！！")
 
     print(student_list)
-
-
 
 
 def show_all():
@@ -66,10 +64,11 @@ def show_all():
         print("-" * 50)
 
 
-
-
-# 3、查找一个学生
 def find_student():
+    """
+    3、查找一个学生
+    :return:
+    """
     # 1。录入一个学生姓名
     input_name = input("请录入一个姓名：")
     # 2.遍历列表
@@ -123,17 +122,32 @@ def update_student():
             # 7.否则，提示，系统中还没有此学生
             print("系统中还没有此学生！！！")
 
-
-# 5、删除一个学生
 def del_student():
+    """
+    5.删除一个学生
+    :return:
+    """
+    # 1.录入一个学生
+    input_name = input("请录入一个学生")
 
-    pass
-
-
-
-
+    # 2.遍历列表
+    for student in student_list:
+        # 3.判断字典中的姓名与录入姓名是否一样
+        if input_name == student.get("name"):
+            # 4.如果一样就从列表中删除改字典
+            student_list.remove(student)
+            # 5.提示删除成功
+            print("删除成功")
+            pass
+        else:
+            # 6.否则，提示没有此学生
+            print("系统中还没有此学生！！！")
 
 def show_main():
+    """
+    显示菜单
+    :return:
+    """
     print("*" * 50)
     print("欢迎使用【学生管理系统】v1.0")
     print("1.添加学生")
