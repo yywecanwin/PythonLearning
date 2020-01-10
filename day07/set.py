@@ -32,7 +32,7 @@ print(set4)
 
 print("*" * 10)
 for s in set4:
-    print(type(s) # <class 'str'>
+    print(type(s)) # <class 'str'>
     print(s) # 去掉重复的字母,其他字母随机排序
 
 
