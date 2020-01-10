@@ -34,7 +34,7 @@ def add_student():
     # 4.提示添加成功
     print(f"添加{name}成功！！！")
 
-    print(student_list)
+    # print(student_list)
 
 
 def show_all():
