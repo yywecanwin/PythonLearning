@@ -7,13 +7,13 @@
 """
 学生管理系统——搭建主体框架
 """
-"""
-步骤：
-"""
-
 from sms import sms_tools
 
 def main():
+    """
+    主函数
+    :return:
+    """
 
     while True:
 
@@ -54,10 +54,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-
-
-
-    pass
 
 
 
