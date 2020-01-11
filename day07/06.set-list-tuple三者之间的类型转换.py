@@ -21,6 +21,18 @@ print(set3) # {40, 10, 20, 30}
 list4 = list(set3)
 print(list4) # [40, 10, 20, 30]
 
+d = [1,2,3,4,15]
+e = tuple(d)
+print(e) # (1, 2, 3, 4, 15)
+
+f = list(e)
+print(f) # [1, 2, 3, 4, 15]
+
+h = set(e)
+print(h) # {1, 2, 3, 4, 15}
+
+
+
 
 
 
