@@ -70,10 +70,3 @@ def f3(x):
 result3 = filter(f3,my_list3)
 print(result3)
 print(list(result3))
-
-
-
-
-
-
-
