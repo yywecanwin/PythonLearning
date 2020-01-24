@@ -10,7 +10,7 @@
 """
 
 # 1.打开文件
-f = open("a.txt","w")
+f = open("a.txt","a+")
 # print(f.read())
 
 # 2.写数据
