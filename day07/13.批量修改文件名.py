@@ -30,10 +30,6 @@ for file_name in file_list:
 
 
 
-    pass
-
-
-
 
 
 
