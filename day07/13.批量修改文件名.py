@@ -27,6 +27,8 @@ for file_name in file_list:
 
     # 对文件重命名
     os.rename(file_name,new_name)
+    
+    print(file_name)
 
 
 
