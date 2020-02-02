@@ -11,6 +11,8 @@ fd(340)
 seth(0)
 pendown()
 
+
+
 speed(5)
 begin_fill()
 fillcolor('red')
