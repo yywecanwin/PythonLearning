@@ -9,47 +9,41 @@
 """
 
 class A:
+
     def __init__(self,a):
         self.a = a
         pass
 
     def methodA(self):
-        print("---------methodA--------")
-        pass
+        print("---------methodA---------")
+
     pass
 
 class B(A):
+
     def __init__(self,a,b):
         self.b = b
+        super().__init__(a)
         pass
 
     def methodB(self):
-        print("--------mothodB---------")
+        print("---------methodB--------")
         pass
-
     pass
 
 class C(B):
-
     def __init__(self,a,b,c):
         self.c = c
-        # 调用B类的__init__方法
-        super().__init__(b,c)
+        # 调用父类__init__方法
+        super().__init__(a,b)
         pass
 
     def methodC(self):
-        print("---------methodC----------")
+        print("--------methodC-------")
         pass
 
-    def methodB(self):
-        print("----------methodB---------")
-
-        pass
-
-    def methodA(self):
-        print("----------methodA---------")
-        pass
     pass
+
 
 
 obj_c = C("a的属性","b的属性","c的属性")
@@ -62,4 +56,4 @@ obj_c.methodC()
 obj_c.methodB()
 obj_c.methodA()
 
-
+#
