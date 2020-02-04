@@ -47,7 +47,7 @@ class Student:
 
     pass
 
-
+# 1.实例对象.类方法名(参数1,参数2,......)
 s = Student("刘德华",56,"男")
 s.study()
 s.test()
