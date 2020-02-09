@@ -13,6 +13,7 @@ else 语句的格式：
 """
 list1 = [10,20]
 try:
+    print(list1[1])
     print(list1[2])
     pass
 except:
