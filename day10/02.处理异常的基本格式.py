@@ -27,6 +27,16 @@ print("孤独加寂寞，总是，执行不到我。。。")
 
 print("读取一个文件。。。。")
 
+try:
+    f = open("a.txt","r")
+    print(f.read())
+    pass
+except:
+    print("文件a.txt不存在。。。。")
+    pass
+
+print("读取结束。。。")
+
 
 
 
